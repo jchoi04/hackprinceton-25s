@@ -1,7 +1,7 @@
 // ForgotPasswordScreen.tsx
 import React, { useState } from 'react';
 import { View, TextInput, Button, Text } from 'react-native';
-import { sendPasswordReset } from '../authUtils';
+import { sendPasswordReset } from '../../authUtils';
 
 function ForgotPasswordScreen() {
   const [email, setEmail] = useState('');
